@@ -3,7 +3,7 @@ body {
   margin: 0;
   background: white;
   height: auto;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   width: 100%;
 }
 
@@ -14,7 +14,7 @@ body {
   background-image: url("../Background/modern.png");
   background-color: #cccccc;
   z-index: -1;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .back1 {
@@ -31,7 +31,11 @@ body {
   position: absolute;
   /*background-color: rgb(199, 199, 199);*/
   z-index: 1;
-  padding-top: 50px;
+  margin-top: 50px;
+}
+
+.arrange {
+  padding-top: 4%;
 }
 
 .nav-link {
@@ -161,7 +165,7 @@ body {
 .second h1 {
   margin-bottom: 50px;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 80px;
 }
 
@@ -170,7 +174,7 @@ body {
   margin-top: 5%;
   text-align: justify;
   width: 900px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 30px;
 }
 
@@ -191,7 +195,7 @@ body {
 .second .uppercase {
   margin-top: 200px;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 4em;
 }
 
@@ -244,7 +248,7 @@ body {
 
 .third .title {
   font-size: 5em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   margin-top: 30%;
 }
@@ -258,7 +262,7 @@ body {
 
 .third .card-deck {
   margin: 5%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 100;
   font-size: 15px;
 }
@@ -290,7 +294,7 @@ body {
 }
 
 .third .hippoinvention h2 {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   width: 500px;
   font-size: 30px;
 }
@@ -307,7 +311,7 @@ body {
 }
 
 .third .humour1 {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   float: right;
   margin: 25%;
   margin-right: 10%;
@@ -402,7 +406,7 @@ body {
 
 .fourth .title {
   font-size: 5em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   margin-top: 30%;
 }
@@ -421,7 +425,7 @@ body {
   width: 500px;
   float: left;
   *background-color: violet;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 .fourth .invention2 h3 {
@@ -449,7 +453,7 @@ body {
   font-size: 30px;
   width: 100;
   text-align: justify;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 .fourth .principal2 h1 {
@@ -518,14 +522,14 @@ body {
 
 .fifth .title {
   font-size: 5em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   margin-top: 30%;
 }
 
 .fifth .card-deck {
   margin: 5%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 100;
   font-size: 15px;
 }
@@ -648,7 +652,7 @@ body {
 
 .sixth .title {
   font-size: 5em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   margin-top: 30%;
 }
@@ -659,7 +663,7 @@ body {
   width: 500px;
   float: left;
   *background-color: violet;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 .sixth .invention2 h3 {
@@ -688,7 +692,7 @@ body {
   width: 100;
   z-index: -2;
   text-align: justify;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 .sixth .principal2 h1 {
@@ -705,13 +709,13 @@ body {
   background-image: url("../Background/modern.png");
   z-index: -3;
   text-align: center;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 .steam h1 {
   margin-top: 100px;
   font-size: 4em;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 700;
 }
 
@@ -778,6 +782,24 @@ body {
   animation: glow 1s ease-in-out infinite alternate;
 }
 
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8d9644, 0 0 40px #8d9644, 0 0 50px #8d9644, 0 0 60px #8d9644, 0 0 70px #8d9644;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #d9e0a1, 0 0 40px #d9e0a1, 0 0 50px #d9e0a1, 0 0 60px #d9e0a1, 0 0 70px #d9e0a1, 0 0 80px #d9e0a1;
+  }
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8d9644, 0 0 40px #8d9644, 0 0 50px #8d9644, 0 0 60px #8d9644, 0 0 70px #8d9644;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #d9e0a1, 0 0 40px #d9e0a1, 0 0 50px #d9e0a1, 0 0 60px #d9e0a1, 0 0 70px #d9e0a1, 0 0 80px #d9e0a1;
+  }
+}
+
 .bawah {
   float: left;
   height: 70vh;
@@ -799,7 +821,7 @@ body {
 }
 
 .bawah .text1 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .bawah .text1 h2 {
@@ -821,7 +843,7 @@ body {
 }
 
 .bawah .text2 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .bawah .text2 h2 {
@@ -834,7 +856,7 @@ body {
 }
 
 .bawah .text3 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .bawah .text3 h2 {
@@ -852,7 +874,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   padding-top: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 30px;
 }
 /*# sourceMappingURL=modern.css.map */

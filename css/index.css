@@ -1,8 +1,21 @@
+.first {
+  position: absolute;
+  width: 100%;
+  height: 1184vh;
+  background-image: url("");
+  background-size: contain;
+  z-index: -1;
+}
+
 .nav {
   position: absolute;
   /*background-color: rgb(199, 199, 199);*/
   z-index: 1;
-  padding-top: 50px;
+  margin-top: 50px;
+}
+
+.arrange {
+  padding-top: 4%;
 }
 
 .nav-link {

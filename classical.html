@@ -54,50 +54,53 @@
 
       <ul class="nav">
 
-        <img src="Image/musicon.png" width="50px" height="50px" id="icon">
+        <div class="arrange d-flex flex-row">
+          <img src="Image/musicon.png" width="50px" height="50px" id="icon">
+          <audio id="bgm">
+            <source src="music/placeholder.mp3" type="audio/mp3">
+          </audio>
 
+          <script>
+            var bgm = document.getElementById("bgm");
+            var icon = document.getElementById("icon");
 
-        <audio id="bgm">
-          <source src="music/placeholder.mp3" type="audio/mp3">
-        </audio>
-
-        <script>
-          var bgm = document.getElementById("bgm");
-          var icon = document.getElementById("icon");
-
-          icon.onclick = function () {
-            if (bgm.paused) {
-              bgm.play();
-              icon.src = "image/musicmute.png";
-            } else {
-              bgm.play();
-              icon.src = "image/musicon.png";
+            icon.onclick = function () {
+              if (bgm.paused) {
+                bgm.play();
+                icon.src = "image/musicmute.png";
+              } else {
+                bgm.play();
+                icon.src = "image/musicon.png";
+              }
             }
-          }
 
-        </script>
+          </script>
 
-        <li class="nav-item">
-          <a class="nav-link" href="historic.html">Pre-Historic</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="classical.html">Classical Antiquity</a>
-        </li>
-        <li class="nav-item">
-          <a href="index.html">
-            <img alt="RMT" src="/Image/Main_Logo.png" style="max-width: 200px;">
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Islamic.html">Middle Age</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="modern.html">Modern History</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About Us</a>
-        </li>
-
+          <li class="nav-item">
+            <a class="nav-link" href="historic.html">Pre-Historic</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="classical.html">Classical Antiquity</a>
+          </li>
+        </div>
+        <div class="d-flex justify-content-center">
+          <li class="nav-item">
+            <a href="index.html">
+              <img alt="RMT" src="/Image/Main_Logo.png" style="max-width: 200px;">
+            </a>
+          </li>
+        </div>
+        <div class="arrange d-flex flex-row">
+          <li class="nav-item">
+            <a class="nav-link" href="Islamic.html">Middle Age</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="modern.html">Modern History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+        </div>
       </ul>
 
     </div>

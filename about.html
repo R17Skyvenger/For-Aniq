@@ -31,55 +31,64 @@
 </head>
 
 <body>
+  
+  <div class="first"></div>
 
   <div class="container-fluid pr-0 pl-0 d-flex justify-content-center">
 
+    <div class="Heading lax lax_preset_slideY:644:-500">
+      <h1>About Us</h1>
+    </div>
     <!-- Links -->
     <ul class="nav">
 
-      <img src="Image/musicon.png" width="50px" height="50px" id="icon">
+      <div class="arrange d-flex flex-row">
+        <img src="Image/musicon.png" width="50px" height="50px" id="icon">
+        <audio id="bgm">
+          <source src="music/placeholder.mp3" type="audio/mp3">
+        </audio>
 
+        <script>
+          var bgm = document.getElementById("bgm");
+          var icon = document.getElementById("icon");
 
-      <audio id="bgm">
-        <source src="music/placeholder.mp3" type="audio/mp3">
-      </audio>
-
-      <script>
-        var bgm = document.getElementById("bgm");
-        var icon = document.getElementById("icon");
-
-        icon.onclick = function () {
-          if (bgm.paused) {
-            bgm.play();
-            icon.src = "image/musicmute.png";
-          } else {
-            bgm.play();
-            icon.src = "image/musicon.png";
+          icon.onclick = function () {
+            if (bgm.paused) {
+              bgm.play();
+              icon.src = "image/musicmute.png";
+            } else {
+              bgm.play();
+              icon.src = "image/musicon.png";
+            }
           }
-        }
 
-      </script>
-      <li class="nav-item">
-        <a class="nav-link" href="historic.html">Pre-Historic</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="classical.html">Classical Antiquity</a>
-      </li>
-      <li class="nav-item">
-        <a href="index.html">
-          <img alt="RMT" src="/Image/Main_Logo.png" style="max-width: 200px;">
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Islamic.html">Middle Age</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="modern.html">Modern History</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about.html">About Us</a>
-      </li>
+        </script>
 
+        <li class="nav-item">
+          <a class="nav-link" href="historic.html">Pre-Historic</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="classical.html">Classical Antiquity</a>
+        </li>
+      </div>
+      <div class="d-flex justify-content-center">
+        <li class="nav-item">
+          <a href="index.html">
+            <img alt="RMT" src="/Image/Main_Logo.png" style="max-width: 200px;">
+          </a>
+        </li>
+      </div>
+      <div class="arrange d-flex flex-row">
+        <li class="nav-item">
+          <a class="nav-link" href="Islamic.html">Middle Age</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="modern.html">Modern History</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+      </div>
     </ul>
 
 
@@ -87,6 +96,8 @@
     <img class="img-fluid" src="/Image/MH Information BG 1.png" alt="bh" style="min-height: 700px;">
 
   </div>
+
+
 
 
   <div class="Roots container-fluid pl-0 pr-0">
@@ -120,7 +131,30 @@
       <div class="line1"></div>
     </div>
 
+    <div class="Image container-fluid d-flex flex-column justify-content-center">
+
+
+      <img class="banner mx-auto d-block img-thumbnail" src="/Image/about us/Banner.jpg" alt=""
+        style="max-width: 816px;">
+      <img class="brochure mx-auto d-block img-thumbnail" src="/Image/about us/Free-Tri-Fold-Mockup-PSD-File.jpg" alt=""
+        style="max-width: 816px;">
+      <img class="game mx-auto d-block img-thumbnail" src="/Image/about us/Flyer.jpg" alt="" style="max-width: 816px;">
+
+      <div class="d-flex flex-row justify-content-center">
+        <img class="card mx-2 d-block img-thumbnail" src="/Image/about us/Free_Playing_Cards_Mockup_7.jpg" alt=""
+          style="max-width: 400px;">
+        <img class="card mx-2 d-block img-thumbnail" src="/Image/about us/Free_Playing_Cards_Mockup_back.jpg" alt=""
+          style="max-width: 400px;">
+      </div>
+
+      <img class="mx-auto d-block img-thumbnail" src="/Image/about us/Mockup-4.jpg" alt="" style="max-width: 816px;">
+
+
+    </div>
+
     <img src="/Image/MH Information BG 2.png" alt="" class="BG2">
+
+
 
 
 
@@ -153,12 +187,14 @@
 
   </div>
 
-  <div class="medicine container-fluid">
+  <div class="medicine container-fluid pl-0 pr-0">
 
 
+    <img src="/Image/MH Information BG 2.png" alt="" class="BG3">
 
-
-
+    <div class="container-fluid pl-0 pr-0 d-flex flex-row-reverse">
+      <img class="BG4 img-fluid" src="/Image/MH Information BG 3.png" alt="">
+    </div>
 
 
   </div>

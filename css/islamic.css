@@ -12,7 +12,11 @@
   position: absolute;
   /*background-color: rgb(199, 199, 199);*/
   z-index: 1;
-  padding-top: 50px;
+  margin-top: 50px;
+}
+
+.arrange {
+  padding-top: 4%;
 }
 
 .nav-link {
@@ -54,6 +58,19 @@
 .nav .nav-item:hover:after {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+
+.Heading {
+  margin-top: 40%;
+  position: absolute;
+}
+
+.Heading h1 {
+  font-size: 150px;
+  letter-spacing: 8px;
+  font-family: "montserrat", sans-serif;
+  color: white;
+  text-transform: uppercase;
 }
 
 .Roots {
@@ -338,8 +355,18 @@
   font-size: 1.6em;
 }
 
+.AlgebraTitle .RizmiRef1 {
+  position: absolute;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 100;
+  width: 30%;
+  margin-top: 30%;
+  margin-right: -50%;
+}
+
 .AlgebraTitle .Rizmi2 {
-  padding-bottom: 4%;
+  padding-bottom: 0%;
 }
 
 .AlgebraTitle .Rizmi2 h2 {
@@ -353,7 +380,7 @@
   font-size: 15px;
   font-weight: 100;
   width: 30%;
-  margin-left: 16%;
+  margin-left: 18%;
   padding-bottom: 28%;
 }
 
@@ -426,8 +453,33 @@
   padding-bottom: 10%;
 }
 
+.medicine .IbnSina1 {
+  position: absolute;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 100;
+  width: 30%;
+  margin-top: 34%;
+}
+
 .medicine .Jabirtext2 {
   margin-top: 8%;
+  padding-bottom: 0%;
+}
+
+.medicine .Jabirtext2 h2 {
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6em;
+}
+
+.medicine .IbnSinaRef {
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 100;
+  width: 30%;
+  margin-left: 26%;
+  margin-top: 0%;
 }
 
 .BG6 {

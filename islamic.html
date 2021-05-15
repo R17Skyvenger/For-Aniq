@@ -39,52 +39,60 @@
 
     <!-- Links -->
     <ul class="nav">
-      <img src="Image/musicon.png" width="50px" height="50px" id="icon">
 
+      <div class="arrange d-flex flex-row">
+        <img src="Image/musicon.png" width="50px" height="50px" id="icon">
+        <audio id="bgm">
+          <source src="music/placeholder.mp3" type="audio/mp3">
+        </audio>
 
-      <audio id="bgm">
-        <source src="music/placeholder.mp3" type="audio/mp3">
-      </audio>
+        <script>
+          var bgm = document.getElementById("bgm");
+          var icon = document.getElementById("icon");
 
-      <script>
-        var bgm = document.getElementById("bgm");
-        var icon = document.getElementById("icon");
-
-        icon.onclick = function () {
-          if (bgm.paused) {
-            bgm.play();
-            icon.src = "image/musicmute.png";
-          } else {
-            bgm.play();
-            icon.src = "image/musicon.png";
+          icon.onclick = function () {
+            if (bgm.paused) {
+              bgm.play();
+              icon.src = "image/musicmute.png";
+            } else {
+              bgm.play();
+              icon.src = "image/musicon.png";
+            }
           }
-        }
 
-      </script>
+        </script>
 
-      <li class="nav-item">
-        <a class="nav-link" href="historic.html">Pre-Historic</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="classical.html">Classical Antiquity</a>
-      </li>
-      <li class="nav-item">
-        <a href="index.html">
-          <img alt="RMT" src="/Image/Main_Logo.png" style="max-width: 200px;">
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Islamic.html">Middle Age</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="modern.html">Modern History</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about.html">About Us</a>
-      </li>
-
+        <li class="nav-item">
+          <a class="nav-link" href="historic.html">Pre-Historic</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="classical.html">Classical Antiquity</a>
+        </li>
+      </div>
+      <div class="d-flex justify-content-center">
+        <li class="nav-item">
+          <a href="index.html">
+            <img alt="RMT" src="/Image/Main_Logo.png" style="max-width: 200px;">
+          </a>
+        </li>
+      </div>
+      <div class="arrange d-flex flex-row">
+        <li class="nav-item">
+          <a class="nav-link" href="Islamic.html">Middle Age</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="modern.html">Modern History</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+      </div>
     </ul>
     <!-- Links -->
+
+    <div class="Heading lax lax_preset_slideY:644:-500">
+      <h1>Middle Age</h1>
+    </div>
 
 
 
@@ -109,10 +117,8 @@
       </h1>
       <h2 class="lax lax_preset_fadeInOut:123:0 mt-5">
         <p class="text-center text-justify small">
-          We follow the adventure of our main character
-          using a VR headset, there he goes into a virtual adventure diving deep into the roots of
-          technology on how it all began. Here we will see famous figures of the past that have
-          correlation with STEAM and how they shaped the future.
+          From here, we will get to know of the many Muslim pioneer that have propelled the field of science such as
+          chemistry, the field of math and many more through the golden age of Islam.
         </p>
 
       </h2>
@@ -267,6 +273,12 @@
       <img class="Khaw lax lax_preset_jiggle:191:3" src="/Image/Al Khawrizi.png" alt=""
         style="max-width: 500px;max-height: 500px;">
 
+      <h1 class="RizmiRef1 container-fluid" style="color:gray">Al Khwarizmi Biography. (n.d.).
+        <a href="http://catatan-indraa.blogspot.com/2012/03/al-khwarizmi-biography.html">Source</a>
+      </h1>
+
+
+
 
       <div class="Rizmi1 lax lax_preset_scaleInOut:50:0.9" style="max-width: 1100px;">
         <h2>Al-Khwārizmī is famous for his mathematical works, which introduced Hindu-Arabic numerals
@@ -297,11 +309,12 @@
 
     </div>
 
-    <h1 class="RizmiRef container-fluid" style="color:gray">Encyclopædia Britannica, inc. (n.d.). Al-Khwārizmī. Encyclopædia Britannica.
-      <a href="https://www.britannica.com/biography/al-Khwarizmi. ">Source</a>
+    <h1 class="RizmiRef container-fluid" style="color:gray">Encyclopædia Britannica, inc. (n.d.). Al-Khwārizmī.
+      Encyclopædia Britannica.
+      <a href="https://www.britannica.com/biography/al-Khwarizmi">Source</a>
     </h1>
 
-     
+
 
 
 
@@ -326,7 +339,12 @@
       <div class="d-flex flex-column"><img class="JabirImage lax lax_preset_jiggle:191:3" src="/Image/Ibn SIna.png"
           alt="" style="max-width: 500px;max-height: 500px;">
 
-        <h2>Ibn Sina (<a href="#">Source</a>)</h2>
+        <h1 class="IbnSina1 container-fluid" style="color:gray">Parvaz, S. (2019, February 10). Ibn Sina. Welcome to
+          Iran.
+          <a href="https://www.welcometoiran.com/ibn-sina/.">Source</a>
+        </h1>
+
+
       </div>
 
 
@@ -361,6 +379,13 @@
 
 
       </div>
+
+      <h1 class="IbnSinaRef container-fluid" style="color:gray">Encyclopædia Britannica, inc. (n.d.). Avicenna.
+        Encyclopædia Britannica.
+        <a href="https://www.britannica.com/biography/Avicenna">Source</a>
+      </h1>
+
+
 
     </div>
 

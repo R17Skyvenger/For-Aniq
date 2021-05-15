@@ -1,18 +1,35 @@
 .first {
   position: absolute;
   width: 100%;
-  height: 450vh;
-  background-image: url("/Image/Pattern_islamic.jpg");
+  height: 440vh;
+  background-image: url("/Image/historic.jpg");
   background-size: contain;
   background-color: #cccccc;
   z-index: -1;
+}
+
+.Heading {
+  margin-top: 40%;
+  position: absolute;
+}
+
+.Heading h1 {
+  font-size: 150px;
+  letter-spacing: 8px;
+  font-family: "montserrat", sans-serif;
+  color: white;
+  text-transform: uppercase;
 }
 
 .nav {
   position: absolute;
   /*background-color: rgb(199, 199, 199);*/
   z-index: 1;
-  padding-top: 50px;
+  margin-top: 50px;
+}
+
+.arrange {
+  padding-top: 4%;
 }
 
 .nav-link {
@@ -67,8 +84,39 @@
   margin-top: 40vh;
 }
 
+.Eq1 .StoneHammer {
+  position: absolute;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 100;
+  width: 30%;
+  margin-top: 30%;
+}
+
+.Eq3 .StoneSpear {
+  position: absolute;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 100;
+  width: 30%;
+  margin-top: 32%;
+}
+
+.Eq3 .Jabirtext {
+  margin-top: 10%;
+}
+
 .Eq2 {
   margin-bottom: 0%;
+}
+
+.Eq2 .StoneKnife {
+  position: absolute;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 100;
+  width: 30%;
+  margin-top: 30%;
 }
 
 .Equipment {
@@ -111,19 +159,19 @@
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8d9644, 0 0 40px #8d9644, 0 0 50px #8d9644, 0 0 60px #8d9644, 0 0 70px #8d9644;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8d9644, 0 0 40px #8d9644, 0 0 50px #8d9644, 0 0 60px #8d9644, 0 0 70px #8d9644;
   }
   to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #d9e0a1, 0 0 40px #d9e0a1, 0 0 50px #d9e0a1, 0 0 60px #d9e0a1, 0 0 70px #d9e0a1, 0 0 80px #d9e0a1;
+    text-shadow: 0 0 20px #fff, 0 0 30px #d9e0a1, 0 0 40px #d9e0a1, 0 0 50px #d9e0a1, 0 0 60px #d9e0a1, 0 0 70px #d9e0a1, 0 0 80px #d9e0a1;
   }
 }
 
 @keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8d9644, 0 0 40px #8d9644, 0 0 50px #8d9644, 0 0 60px #8d9644, 0 0 70px #8d9644;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8d9644, 0 0 40px #8d9644, 0 0 50px #8d9644, 0 0 60px #8d9644, 0 0 70px #8d9644;
   }
   to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #d9e0a1, 0 0 40px #d9e0a1, 0 0 50px #d9e0a1, 0 0 60px #d9e0a1, 0 0 70px #d9e0a1, 0 0 80px #d9e0a1;
+    text-shadow: 0 0 20px #fff, 0 0 30px #d9e0a1, 0 0 40px #d9e0a1, 0 0 50px #d9e0a1, 0 0 60px #d9e0a1, 0 0 70px #d9e0a1, 0 0 80px #d9e0a1;
   }
 }
 
