@@ -1,7 +1,7 @@
 .first {
   position: absolute;
   width: 100%;
-  height: 440vh;
+  height: 420vh;
   background-image: url("/Image/historic.jpg");
   background-size: contain;
   background-color: #cccccc;
@@ -142,6 +142,7 @@
   border-radius: 20px;
   padding-top: 1px;
   padding-bottom: 1px;
+  margin-top: 20%;
 }
 
 .nextpage a {
