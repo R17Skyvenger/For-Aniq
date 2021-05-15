@@ -877,4 +877,9 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
 }
+@media screen and (max-width: 565px) {
+  .bigtitle {
+    font-size: 1em;
+  }
+}
 /*# sourceMappingURL=modern.css.map */

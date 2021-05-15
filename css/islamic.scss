@@ -583,6 +583,16 @@
   font-family: "Montserrat", sans-serif;
 }
 
+@media screen and (max-width: 565px) {
+  
+  .Heading{
+    h1{
+      font-size: 1em;
+    }
+  }
+  
+}
+
 /*
 
 @media screen and (max-width: 565px) {
