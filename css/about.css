@@ -1,0 +1,440 @@
+.nav {
+  position: absolute;
+  /*background-color: rgb(199, 199, 199);*/
+  z-index: 1;
+  padding-top: 50px;
+}
+
+.nav-link {
+  font-size: 1.3em;
+}
+
+.nav-item a:link {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "montserrat", sans-serif;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+}
+
+.nav a:visited {
+  color: white;
+}
+
+.nav .nav-item {
+  color: #666;
+  display: inline-block;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.nav .nav-item:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px #ffffff;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: -webkit-transform 200ms ease-in-out;
+  transition: -webkit-transform 200ms ease-in-out;
+  transition: transform 200ms ease-in-out;
+  transition: transform 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
+}
+
+.nav .nav-item:hover:after {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.Roots {
+  margin-top: 50px;
+}
+
+.Roots h1 {
+  font-size: 3em;
+}
+
+.Roots .line,
+.Roots .line1 {
+  width: 800px;
+  height: 2px;
+  background-color: #fac64c;
+}
+
+.Roots .line {
+  margin-bottom: 4%;
+}
+
+.Roots .line1 {
+  margin-top: 4%;
+}
+
+.back2 {
+  margin-top: 300px;
+}
+
+.Pagenave {
+  text-align: center;
+  z-index: 1;
+  position: relative;
+}
+
+.Pagenave h1 {
+  margin-top: 200px;
+  color: white;
+  font-size: 2em;
+}
+
+.Pagenave .contain {
+  position: relative;
+  padding-left: 40px;
+}
+
+.Pagenave .image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.Pagenave .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 270px;
+  height: 470px;
+  opacity: 0;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  background-image: url(/Image/stone_age.png);
+  background-size: contain;
+}
+
+.Pagenave .overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 270px;
+  height: 470px;
+  opacity: 0;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  background-image: url(/Image/classical_antiquity.png);
+  background-size: contain;
+}
+
+.Pagenave .overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 270px;
+  height: 470px;
+  opacity: 0;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  background-image: url(/Image/Islamic_Golden_Age.png);
+  background-size: contain;
+}
+
+.Pagenave .overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 270px;
+  height: 470px;
+  opacity: 0;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  background-image: url(/Image/modern_era.png);
+  background-size: contain;
+}
+
+.Pagenave .overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 270px;
+  height: 470px;
+  opacity: 0;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  background-image: url(/Image/modern_era.png);
+  background-size: contain;
+}
+
+.Pagenave .contain:hover .overlay {
+  opacity: 1;
+}
+
+.Pagenave .contain:hover .overlay1 {
+  opacity: 1;
+}
+
+.Pagenave .contain:hover .overlay2 {
+  opacity: 1;
+}
+
+.Pagenave .contain:hover .overlay3 {
+  opacity: 1;
+}
+
+.Pagenave .contain:hover .overlay4 {
+  opacity: 1;
+}
+
+.BG2 {
+  margin-top: -22%;
+}
+
+.title {
+  margin-top: -35%;
+  font-size: 5em;
+  margin-bottom: 100px;
+}
+
+.sidewing {
+  position: absolute;
+  margin-top: -48%;
+}
+
+.Jabirtext h1 {
+  font-size: 5em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.Jabirtext h2 {
+  font-size: 1.6em;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Jabirge {
+  margin-top: 10%;
+  margin-left: -15%;
+}
+
+.Jabirtext1 {
+  margin-top: 10%;
+  margin-left: 23%;
+}
+
+.Jabirtext1 h2 {
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6em;
+}
+
+.Alembicgp {
+  margin-top: 24%;
+}
+
+.Alembic h1 {
+  font-size: 5em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.Alembic h2 {
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6em;
+}
+
+.IbnSina h2 {
+  margin-left: 20%;
+}
+
+.IbnSina a {
+  font-size: 0.8em;
+}
+
+.AlgebraTitle {
+  margin-top: 20%;
+  padding-bottom: 10%;
+  z-index: 1;
+}
+
+.AlgebraTitle h1 {
+  font-size: 5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+}
+
+.AlgebraTitle h2 {
+  color: white;
+}
+
+.AlgebraTitle .Khaw {
+  margin-top: -5%;
+}
+
+.AlgebraTitle .Jabirtext1 {
+  margin-left: 0%;
+}
+
+.number {
+  position: relative;
+  margin-top: -10%;
+}
+
+.number1 {
+  position: relative;
+}
+
+.num1 {
+  margin-left: 20%;
+}
+
+.num2 {
+  margin-top: 20%;
+  padding-left: 20%;
+}
+
+.num3 {
+  margin-top: 30%;
+  padding-left: 20%;
+}
+
+.num4 {
+  margin-left: 20%;
+  padding-right: 20%;
+}
+
+.num5 {
+  padding-bottom: 10%;
+}
+
+.num6 {
+  margin-left: 18%;
+}
+
+.num8 {
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.num9 {
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.BG5 {
+  position: relative;
+  margin-top: -8%;
+  z-index: -1;
+}
+
+.Jabirtext2 {
+  padding-bottom: 10%;
+}
+
+.Jabirtext2 h2 {
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6em;
+}
+
+.medicine h1 {
+  font-size: 5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 10%;
+}
+
+.medicine .Jabirtext2 {
+  margin-top: 8%;
+}
+
+.BG6 {
+  position: absolute;
+  margin-top: -94%;
+}
+
+.BG7 {
+  position: absolute;
+  margin-top: -28%;
+}
+
+/*Footer*/
+.Center {
+  margin-top: 20vh;
+  margin-bottom: 2vh;
+}
+
+.Center .line {
+  height: 380px;
+  width: 4px;
+  background-color: #fac64c;
+  margin-left: 60%;
+}
+
+.Center .text1 h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.Center .text1 h2 {
+  font-size: 1.4em;
+  font-weight: 400;
+}
+
+.Center .text2 h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.Center .text2 h2 {
+  font-size: 1.4em;
+  font-weight: 400;
+}
+
+.Center .text3 h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.Center .text3 h2 {
+  font-size: 1.4em;
+  font-weight: 400;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: #fac64c;
+  float: left;
+}
+
+.footer h1 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (max-width: 565px) {
+  .AlgebraTitle h1 {
+    font-size: 5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+  }
+  .AlgebraTitle h2 {
+    color: black;
+  }
+}
+/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,178 @@
+.first{
+  position: absolute;
+  width: 100%;
+  height: 450vh;
+  background-image: url("/Image/Pattern_islamic.jpg");
+  background-size: contain;
+
+  background-color: #cccccc;
+  z-index: -1;
+}
+
+.nav {
+  position: absolute;
+  /*background-color: rgb(199, 199, 199);*/
+  z-index: 1;
+  padding-top: 50px;
+}
+
+.nav-link {
+  font-size: 1.3em;
+}
+
+.nav-item a:link {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "montserrat", sans-serif;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+}
+
+.nav a:visited {
+  color: white;
+}
+
+.nav .nav-item {
+  color: #666;
+  display: inline-block;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.nav .nav-item:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px #ffffff;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: -webkit-transform 200ms ease-in-out;
+  transition: -webkit-transform 200ms ease-in-out;
+  transition: transform 200ms ease-in-out;
+  transition: transform 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
+}
+
+.nav .nav-item:hover:after {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.line,
+.line1 {
+  width: 800px;
+  height: 2px;
+  background-color: #5b008c;
+}
+
+.BG2 {
+  margin-top: 40vh;
+
+}
+
+.Eq2{
+  margin-bottom: 0%;
+}
+
+.Equipment{
+  margin-top: -115%;
+  margin-bottom: 10%;
+  h1{
+    font-size: 5em;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  h2{
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6em;
+  }
+}
+
+.nextpage {
+  background-color: #fac64c;
+  width: 70%;
+  border-radius: 20px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.nextpage a {
+  font-size: 3em;
+  text-decoration: none;
+  color: white;
+}
+
+.nextpage a:hover {
+  color: black;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8d9644, 0 0 40px #8d9644, 0 0 50px #8d9644, 0 0 60px #8d9644, 0 0 70px #8d9644;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #d9e0a1, 0 0 40px #d9e0a1, 0 0 50px #d9e0a1, 0 0 60px #d9e0a1, 0 0 70px #d9e0a1, 0 0 80px #d9e0a1;
+  }
+}
+
+.Center {
+  margin-top: 20vh;
+  margin-bottom: 2vh;
+
+  .line {
+    height: 380px;
+    width: 4px;
+    background-color: #fac64c;
+    margin-left: 60%;
+  }
+
+  .text1 h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+  }
+
+  .text1 h2 {
+    font-size: 1.4em;
+    font-weight: 400;
+  }
+
+  .text2 h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+  }
+
+  .text2 h2 {
+    font-size: 1.4em;
+    font-weight: 400;
+  }
+
+  .text3 h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+  }
+
+  .text3 h2 {
+    font-size: 1.4em;
+    font-weight: 400;
+  }
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: #fac64c;
+  float: left;
+}
+
+.footer h1 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Montserrat", sans-serif;
+}
