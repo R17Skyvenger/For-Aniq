@@ -137,6 +137,10 @@ body {
   z-index: -2;
 }
 
+.second .Greek h1 {
+  font-size: 2em;
+}
+
 .second .line {
   margin-top: 100px;
   margin-left: 27%;
@@ -586,6 +590,9 @@ body {
 @media screen and (max-width: 565px) {
   .bigtitle {
     font-size: 1em;
+  }
+  .sidewing, .sidewing2, .sidewing3, .sidewing4 {
+    display: none;
   }
 }
 /*# sourceMappingURL=classical.css.map */

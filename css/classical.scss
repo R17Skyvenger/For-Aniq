@@ -14,6 +14,8 @@ body {
   z-index: -1;
 }
 
+
+
 .back1 {
   z-index: 0;
   position: absolute;
@@ -135,6 +137,12 @@ body {
   background-image: url("../Background/interlaced.png");
   background-color: #cccccc;
   z-index: -2;
+
+  .Greek{
+    h1{
+      font-size: 2em;
+    }
+  }
 }
 
 .second .line {
@@ -582,6 +590,10 @@ body {
   
   .bigtitle{
     font-size: 1em;
+  }
+
+  .sidewing, .sidewing2, .sidewing3, .sidewing4{
+    display: none;
   }
   
 }

@@ -595,6 +595,15 @@
   .Heading h1 {
     font-size: 1em;
   }
+  .BG2 {
+    display: none;
+  }
+  .sidewing {
+    display: none;
+  }
+  .BG6, .BG7 {
+    display: none;
+  }
 }
 
 /*
