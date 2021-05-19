@@ -254,12 +254,12 @@
 
 @media screen and (max-width: 565px) {
   .Roots {
-    margin-top: 90%;
+    margin-top: 96%;
   }
   .video {
     position: absolute;
     margin-left: 4%;
-    margin-top: 100%;
+    margin-top: 120%;
     width: 320px;
     height: 215px;
   }
