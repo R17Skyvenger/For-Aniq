@@ -1,3 +1,9 @@
+.video {
+  position: absolute;
+  margin-left: 26%;
+  margin-top: 14%;
+}
+
 .nav {
   position: absolute;
   /*background-color: rgb(199, 199, 199);*/
@@ -244,5 +250,15 @@
   text-align: center;
   padding-top: 20px;
   font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (max-width: 565px) {
+  .video {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 100%;
+    width: 320px;
+    height: 215px;
+  }
 }
 /*# sourceMappingURL=index.css.map */
