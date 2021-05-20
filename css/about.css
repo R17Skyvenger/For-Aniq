@@ -374,5 +374,9 @@
   .BG2, .sidewing, .BG3, .BG4 {
     display: none;
   }
+  .Center {
+    margin-top: 150vh;
+    margin-bottom: 2vh;
+  }
 }
 /*# sourceMappingURL=about.css.map */

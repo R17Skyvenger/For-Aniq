@@ -70,13 +70,14 @@
 }
 
 .back2 {
-  margin-top: 300px;
+  margin-top: 80px;
 }
 
 .Pagenave {
   text-align: center;
   z-index: 1;
   position: relative;
+  margin-top: -38%;
 }
 
 .Pagenave h1 {
@@ -276,4 +277,18 @@
 
   
   
+}
+
+
+@media screen and (min-width: 1900px){
+  .video{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 14%;
+  }
+
+  .Center {
+    margin-top: 28vh;
+    margin-bottom: 2vh;
+  }
 }
