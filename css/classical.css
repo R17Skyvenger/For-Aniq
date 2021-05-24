@@ -243,7 +243,7 @@ body {
   font-family: "Montserrat";
   font-size: 15px;
   font-weight: 100;
-  width: 30%;
+  width: 90%;
 }
 
 .third .hippo1 h2 {
@@ -322,7 +322,7 @@ body {
   float: left;
   font-weight: 100;
   font-size: 15px;
-  width: 50%;
+  width: 90%;
 }
 
 .third .sidewing3 {
@@ -334,7 +334,7 @@ body {
 
 .fourth {
   width: 100%;
-  height: 390vh;
+  height: 340vh;
   float: left;
   color: black;
   background-image: url("../Background/Classical BG 5.png");
@@ -580,9 +580,11 @@ body {
 .footer h1 {
   text-transform: uppercase;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 34px;
   font-family: "Montserrat", sans-serif;
-  font-size: 30px;
+  font-weight: bolder;
+  color: #ffffff;
+  font-size: 1.6em;
 }
 @media screen and (max-width: 565px) {
   .bigtitle {

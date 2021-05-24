@@ -65,7 +65,7 @@
   .line1 {
     width: 800px;
     height: 2px;
-    background-color: #5b008c;
+    background-color: #ff3171;
   }
 }
 
@@ -251,8 +251,11 @@
 .footer h1 {
   text-transform: uppercase;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 34px;
   font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  color: #ffffff;
+  font-size: 1.6em;
 }
 
 @media screen and (max-width: 565px) {

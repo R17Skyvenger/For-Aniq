@@ -9,7 +9,7 @@
 }
 
 .Heading {
-  margin-top: 40%;
+  margin-top: 36%;
   position: absolute;
 }
 
@@ -77,11 +77,11 @@
 .line1 {
   width: 800px;
   height: 2px;
-  background-color: #5b008c;
+  background-color: #fac64c;
 }
 
 .BG2 {
-  margin-top: 40vh;
+  margin-top: 6vh;
 }
 
 .Eq1 .StoneHammer {
@@ -89,8 +89,12 @@
   font-family: "Montserrat";
   font-size: 15px;
   font-weight: 100;
-  width: 30%;
-  margin-top: 30%;
+  width: 90%;
+  margin-top: 26%;
+}
+
+.Eq1 .StoneHammertext {
+  margin-top: 6%;
 }
 
 .Eq3 .StoneSpear {
@@ -98,8 +102,9 @@
   font-family: "Montserrat";
   font-size: 15px;
   font-weight: 100;
-  width: 30%;
-  margin-top: 32%;
+  width: 90%;
+  margin-top: 30%;
+  margin-left: 4%;
 }
 
 .Eq3 .Jabirtext {
@@ -115,12 +120,17 @@
   font-family: "Montserrat";
   font-size: 15px;
   font-weight: 100;
-  width: 30%;
-  margin-top: 30%;
+  width: 90%;
+  margin-top: 26%;
+  margin-left: -50%;
+}
+
+.Eq2 .StoneKnifetext {
+  margin-top: 6%;
 }
 
 .Equipment {
-  margin-top: -115%;
+  margin-top: -90%;
   margin-bottom: 10%;
 }
 
@@ -231,8 +241,11 @@
 .footer h1 {
   text-transform: uppercase;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 34px;
   font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  color: #ffffff;
+  font-size: 1.6em;
 }
 
 @media screen and (max-width: 565px) {

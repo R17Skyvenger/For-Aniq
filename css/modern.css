@@ -873,9 +873,11 @@ body {
 .footer h1 {
   text-transform: uppercase;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 34px;
   font-family: "Montserrat", sans-serif;
-  font-size: 30px;
+  font-weight: bolder;
+  color: #ffffff;
+  font-size: 1.6em;
 }
 @media screen and (max-width: 565px) {
   .bigtitle {
