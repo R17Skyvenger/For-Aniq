@@ -1,7 +1,7 @@
 .first {
   position: absolute;
   width: 100%;
-  height: 420vh;
+  height: 380vh;
   background-image: url("/Image/historic.jpg");
   background-size: contain;
   background-color: #cccccc;
@@ -256,7 +256,7 @@
 
 @media screen and (min-width: 1900px) {
   .nextpage {
-    margin-top: 38%;
+    margin-top: 20%;
   }
 }
 /*# sourceMappingURL=historic.css.map */
